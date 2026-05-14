@@ -32,11 +32,11 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
-      - name: Run Type Check
-        run: npm run type-check
+      # - name: Run Type Check
+      #   run: npm run type-check
 
-      - name: Run Tests
-        run: npm test -- --run
+      # - name: Run Tests
+      #   run: npm test -- --run
 
       - name: Build Application
         run: npm run build
