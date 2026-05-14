@@ -38,8 +38,8 @@ jobs:
 
       - name: Debug GitHub Variables
         run: |
-        echo "REPOSITORY=$GITHUB_REPOSITORY"
-        echo "REF=$GITHUB_REF"
+          echo "REPOSITORY=$GITHUB_REPOSITORY"
+          echo "REF=$GITHUB_REF"
 
       - name: Configure AWS Credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
